@@ -29,6 +29,7 @@ header nav a {
 .content {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .mission {
@@ -48,4 +49,33 @@ header nav a {
 
 .mission .text h2, .mission .text h4 {
   margin: 10px;
+}
+
+.tea {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+}
+
+.tea-month {
+  text-align: center;
+  width: 100%;
+}
+
+.tea-types {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.tea-types .product img {
+  height: 200px;
+  width: 300px;
+  display: block;
+}
+
+.tea-types .product span {
+  padding: 10px;
 }
