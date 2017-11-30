@@ -59,13 +59,17 @@ header nav a {
 .tea {
   display: flex;
   width: 1000px;
-  height: 800px;
+  height: 700px;
   flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 60px;
 }
 
 .tea-month {
   text-align: center;
   width: 100%;
+  display: block;
+  margin: 25px;
 }
 
 .tea-types {
@@ -73,7 +77,11 @@ header nav a {
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.tea-types .product {
+  margin: 15px;
 }
 
 .tea-types .product img {
@@ -83,7 +91,8 @@ header nav a {
 }
 
 .tea-types .product span {
-  padding: 10px;
+  margin: 10px;
+  display: block;
 }
 
 .locations {
