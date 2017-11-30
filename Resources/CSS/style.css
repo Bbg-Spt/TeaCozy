@@ -79,3 +79,41 @@ header nav a {
 .tea-types .product span {
   padding: 10px;
 }
+
+.locations {
+  display: flex;
+  align-items: center;
+  height: 550px;
+  width: 1200px;
+  background-image: url(../Images/locations.jpg);
+  flex-direction: column;
+}
+
+.location-title {
+  display: block;
+}
+
+.location-title h2 {
+  margin: 60px 0 5px 0;
+}
+
+.location-box {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  background-color: black;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.location-box span {
+  display: block;
+  margin: 20px;
+}
